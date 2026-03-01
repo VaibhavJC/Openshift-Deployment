@@ -2,7 +2,7 @@ apiVersion: apps.openshift.io/v1
 kind: DeploymentConfig
 metadata:
   name: nodejs-app
-  namespace: cloud53375-dev
+  namespace: vaibhavjc13-dev
   labels:
     app: nodejs-app
 spec:
@@ -61,4 +61,5 @@ spec:
     targetPort: 3000
   tls:
     termination: edge
+
     insecureEdgeTerminationPolicy: Redirect
